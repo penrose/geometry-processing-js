@@ -406,4 +406,4 @@ function indexElements(elementList) {
 	return index;
 }
 
-module.exports = [Mesh, indexElements]
+module.exports = { Mesh, indexElements }
