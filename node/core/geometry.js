@@ -579,4 +579,6 @@ function normalize(positions, vertices, rescale = true) {
 	}
 }
 
-module.exports = [Geometry, normalize]
+module.exports = { Geometry: Geometry, 
+		   normalize: normalize 
+		 };
